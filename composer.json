@@ -1,0 +1,19 @@
+{
+    "name": "dinara/composer",
+    "description": "hw12",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "dinara",
+        "email": "dinara_mail@mail.ru"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HTML\\": "./app"
+        }
+    }
+}
